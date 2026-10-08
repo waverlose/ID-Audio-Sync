@@ -1,0 +1,10 @@
+# 运行时依赖
+numpy>=1.24
+soundcard>=0.4.2      # WASAPI loopback 抓取系统声音（Windows）
+pystray>=0.19         # 托盘图标
+Pillow>=10.0          # 托盘图标绘制
+pycaw>=20240210       # 控制默认输出设备静音
+comtypes>=1.2         # pycaw 依赖
+
+# 打包依赖（仅构建时需要）
+pyinstaller>=6.0

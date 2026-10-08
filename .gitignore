@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- PyInstaller ----
+build/__pyinstaller/
+*.manifest
+# 构建中间产物（保留 build/ 下的 .spec 与 build.bat）
+build/idaudiosync/
+dist/
+
+# ---- 构建产物（二进制走 GitHub Release，不进仓库）----
+IDAudioSync.exe
+*.exe
+
+# ---- 运行时 / 本地数据 ----
+*.log
+logs/
+exports/
+config.json
+_archive/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
