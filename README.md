@@ -105,13 +105,19 @@ IDAudioSync.exe list-devices     列出本机音频设备
 
 ---
 
+## 下载
+
+不想自己编译的话，直接到 [Releases](https://github.com/waverlose/ID-Audio-Sync/releases/latest) 下载 `IDAudioSync.exe`（单文件，约 31 MB）。
+
+---
+
 ## 从源码构建
 
 需要 Windows + Python 3.9 以上。
 
 ```bat
-git clone <repo-url>
-cd id-audio-sync
+git clone https://github.com/waverlose/ID-Audio-Sync.git
+cd ID-Audio-Sync
 build\build.bat
 ```
 
